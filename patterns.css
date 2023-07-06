@@ -1,0 +1,82 @@
+header{
+
+    background-color: #53585C;
+    color: #A6D8F5;
+    margin:auto;
+    height: 75px;
+    border-radius: 0%;
+   
+}
+html, body {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    }
+h1{
+    
+    
+    text-align: center;
+    font-family: Ysabeau SC, sans-serif;
+    font-size: 5em; line-height: 0.5em;
+    margin: 0.3em 0.3em 1em 0.3em;
+    color: #A6D8F5;
+    text-shadow: 
+      rgba(0,0,0,0.5) -1px 0, 
+      rgba(0,0,0,0.3) 0 -1px, 
+      rgba(7, 7, 7, 0.5) 2px 2px, 
+      rgba(0,0,0,0.3) -1px -2px;
+
+}
+button{
+background-color: #2778A8;
+color: white;
+font-size: 1em; line-height: 0.5em;
+font-family: Ysabeau SC, sans-serif;
+position: fixed;
+        top: 18px; 
+        left: 95%;
+        transform: translateX(-50%);
+        border: none;
+        cursor: pointer; 
+    outline-offset: 4px; 
+    padding: 12px 15px; 
+    text-shadow: 
+      rgba(0,0,0,0.5) -1px 0, 
+      rgba(0,0,0,0.3) 0 -1px, 
+      rgba(7, 7, 7, 0.5) 2px 2px, 
+      rgba(0,0,0,0.3) -1px -2px; 
+}
+figure{
+    display: inline-block;
+     
+          }
+          figure {
+             position: relative;
+           }
+           
+           figure img {
+             width: 100%;
+             display: block;
+           } 
+           
+           figure > figcaption {
+             position: absolute;
+             opacity:0;
+             bottom: -3em;
+             transition: all 1s ease;
+             width: 100%;
+             line-height: 3em;
+             color: white;
+             background: rgba(0,0,0,.3);
+           }
+           figure:hover > figcaption {
+             opacity: 1;
+             bottom: 0;
+           }
+footer{
+   
+    background-color: #53585C;
+   width: 100;
+    color: #A6D8F5;
+    text-align: center;
+}
